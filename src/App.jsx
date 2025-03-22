@@ -33,7 +33,7 @@ function App() {
             Search
           </button>
         </form>
-        {isLoading && <p>Loading Data...</p>}
+        {isLoading && <p>Loading data...</p>}
         {data && (
           <div className="weather-cards">
             <Card
