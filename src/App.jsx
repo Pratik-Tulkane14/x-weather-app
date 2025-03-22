@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Card from "./components/card";
+import Card from "./components/Card"
 function App() {
   const SECRATE_KEY = "58b8b640dc524c2582f85218252103";
   const BASE_URL = "https://api.weatherapi.com/v1/current.json";
