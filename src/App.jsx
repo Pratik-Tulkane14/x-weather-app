@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "./App.css";
-import Card from "./components/Card"
+import Card from "./components/Card";
 function App() {
   const SECRATE_KEY = "58b8b640dc524c2582f85218252103";
   const BASE_URL = "https://api.weatherapi.com/v1/current.json";
   const [city, setCity] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [data, setData] = useState('');
+  const [data, setData] = useState("");
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
